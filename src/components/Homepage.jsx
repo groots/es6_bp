@@ -7,3 +7,5 @@ class Homepage extends React.Component{
 		</div>
 	}
 }
+
+React.render(<Homepage/>, document.getElementById('app'));
