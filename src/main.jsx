@@ -13,10 +13,17 @@ var routers = (
 		<Route name="home" handler={Home} />
 		<Route name="dashboard" handler={Dashboard}.
 	</Route>
-	);
+);
 
-const message = () => {
-	return 'Hello, I\'m now doing es6!!!';
+var router = Router.create({routes});
+RouterContainer.set(router);
+
+let jwt = localStorage.getItem('jwt');
+
+if(jwt){
+	LoginActions.loginUser(jwt);
 }
 
-console.log(message());	
+router.run(function(Handler){
+	React.render(<Handler />, document.getElementById('content'));
+});
