@@ -11,7 +11,7 @@ var routers = (
 		<Route name="login" handler={Login} />
 		<Route name="signup" handler={SignUp} />
 		<Route name="home" handler={Home} />
-		<Route name="dashboard" handler={Dashboard}.
+		<Route name="dashboard" handler={Dashboard} />
 	</Route>
 );
 
