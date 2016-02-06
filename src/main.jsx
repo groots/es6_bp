@@ -3,9 +3,9 @@ import Router, {Route} from 'react-router';
 import AuthenticateApp from './components/AuthApp';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
-import Home from './components/Homepage.jsx';
+import Home from './components/Homepage';
 import Dashboard from './components/Dashboard';
-import RouterContainer from './services/RouterContainer'
+import RouterContainer from './services/RouterContainer';
 
 var routers = (
 	<Route handler={AuthenticateApp}>
