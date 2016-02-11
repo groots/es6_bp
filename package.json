@@ -29,6 +29,7 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-runtime": "^6.3.19",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
   }
 }
