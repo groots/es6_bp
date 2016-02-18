@@ -30,4 +30,4 @@
 // 	React.render(<Handler />, document.getElementById('content'));
 // });
 document.write('Hi George');
-console.log("App loaded again");
+console.log("App loaded again and again and again");

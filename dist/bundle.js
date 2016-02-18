@@ -76,7 +76,7 @@
 	// 	React.render(<Handler />, document.getElementById('content'));
 	// });
 	document.write('Hi George');
-	console.log("App loaded");
+	console.log("App loaded again and again");
 
 /***/ }
 /******/ ]);
